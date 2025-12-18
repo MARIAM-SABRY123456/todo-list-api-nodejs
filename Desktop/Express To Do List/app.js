@@ -7,7 +7,7 @@ const app= express();
 app.use(express.json());
 
 //DB connect
-const url="mongodb+srv://mariam:129368@cluster0.nsj1hbe.mongodb.net/to_do_list?appName=Cluster0"
+const url="mongodb+srv://mariam:123567@cluster0.nsj1hbe.mongodb.net/to_do_list?appName=Cluster0"
 mongoose.connect(url).then(()=>{
     console.log("mongodb server started");
 })
